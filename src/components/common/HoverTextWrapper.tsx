@@ -22,18 +22,6 @@ const implodeAnimation = keyframes`
   }
 `
 
-const neonGlow = `
-  text-shadow:
-    0 0 5px var(--color),
-    0 0 10px var(--color),
-    0 0 15px var(--color),
-    0 0 20px var(--color-alt),
-    0 0 30px var(--color-alt),
-    0 0 40px var(--color-alt),
-    0 0 50px var(--color-alt),
-    0 0 75px var(--color-alt);
-`
-
 const neonGlowOff = keyframes`
   0% {
     text-shadow: none;

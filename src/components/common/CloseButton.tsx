@@ -5,7 +5,7 @@ type CloseButtonProps = {
   onClick: () => void
 }
 
-export const CloseButton = styled.img<CloseButtonProps>`
+const StyledCloseButton = styled.img<CloseButtonProps>`
   position: fixed;
   top: 3rem;
   right: 3rem;
@@ -15,6 +15,8 @@ export const CloseButton = styled.img<CloseButtonProps>`
   filter: brightness(0) invert(1);
 `
 
-export default ({ onClick }: CloseButtonProps) => (
-  <CloseButton src={CloseButtonImage} alt="Close" onClick={onClick} />
+const CloseButton = ({ onClick }: CloseButtonProps) => (
+  <StyledCloseButton src={CloseButtonImage} alt="Close" onClick={onClick} />
 )
+
+export default CloseButton

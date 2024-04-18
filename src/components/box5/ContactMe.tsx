@@ -16,11 +16,12 @@ const ContactMeContainer = styled.div`
     font-weight: 500;
   }
 
-  p, a {
+  p,
+  a {
     font-size: var(--fs-xsm);
     color: var(--color);
     font-weight: 400;
-    margin: 0 0 1rem 0 ;
+    margin: 0 0 1rem 0;
   }
 
   .fa-icon {
@@ -29,7 +30,7 @@ const ContactMeContainer = styled.div`
   }
 
   a {
-      text-decoration: none;
+    text-decoration: none;
   }
 `
 
@@ -47,7 +48,11 @@ const ContactMe = () => {
         <p>Auckland, New Zealand</p>
       </span>
       <h3>SOCIAL</h3>
-      <a href="https://www.linkedin.com/in/warrick-smith/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/warrick-smith/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <span>
           <FaIcon icon={'faLinkedin'} className="fa-icon" />
           <p>Linkedin</p>

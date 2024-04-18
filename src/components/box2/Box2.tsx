@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import WordSlider from '../common/WordSlider'
 
 const BoxContainer = styled.div`

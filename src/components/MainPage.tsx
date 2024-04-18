@@ -36,7 +36,7 @@ export const MainPage = () => {
           {selectedId !== card.id && card.component}
           {selectedId === card.id && !isClosed && (
             <>
-              <CloseButton onClick={closeCard}/>
+              <CloseButton onClick={closeCard} />
               <div>{renderChildDiv(selectedId)}</div>
             </>
           )}

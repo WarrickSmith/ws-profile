@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import FaIcon from '../../common/FaIcon'
 import YearsExperience from './YearsExperience'
@@ -9,7 +9,7 @@ const SelectorContainer = styled.div`
   gap: 1rem;
   width: 100%;
 
-  .fa-icon{
+  .fa-icon {
     margin-right: 0.5rem;
   }
 
