@@ -3,6 +3,7 @@ import image2 from '../assets/raceday.jpg'
 import image3 from '../assets/cat_couture.jpg'
 import image4 from '../assets/ws-portfolio.jpg'
 import image5 from '../assets/raceday-api.jpg'
+import image6 from '../assets/tic-tac-toe.png'
 
 const portfolioPoints = [
   'Personal Website',
@@ -18,24 +19,21 @@ const reservationizrPoints = [
   'Auth0',
 ]
 
-const racedayPoints = [
-  'Live Racing Data',
-  'MERN Stack',
-  'Jest, Supertest',
-  'MongoDB',
-]
+const racedayPoints = ['New Update Coming..']
 
-const racedayApiPoints = [
-  'RaceDay API Definition',
-  'Swagger UI Express Server',
-  'OpenApi 3.0.1',
-]
+const racedayApiPoints = ['New Update Coming..']
 
 const catcouturePoints = [
   'Mock Web Store Front',
   'React, Node, Express',
   'PostgreSQL, Auth0',
   'Jest, Supertest',
+]
+
+const ticTactoePoints = [
+  'Tic-Tac-Toe Game',
+  'AI (Gemini) Opponent',
+  'React, Vite, typescript',
 ]
 
 const portfolioData = [
@@ -68,6 +66,12 @@ const portfolioData = [
     title: 'Cat Couture Project',
     points: catcouturePoints,
     image: image3,
+  },
+  {
+    href: 'https://warricksmith.com/tictactoe/',
+    title: 'AI tic-tac-toe Project',
+    points: ticTactoePoints,
+    image: image6,
   },
 ]
 
