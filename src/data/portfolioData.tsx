@@ -19,10 +19,18 @@ const reservationizrPoints = [
   'Auth0',
 ]
 
-const racedayPoints = ['New Update Coming..']
+const racedayPoints = [
+  'Live Racing Data',
+  'MERN Stack',
+  'Jest, Supertest',
+  'MongoDB',
+]
 
-const racedayApiPoints = ['New Update Coming..']
-
+const racedayApiPoints = [
+  'RaceDay API Definition',
+  'Swagger UI Express Server',
+  'OpenApi 3.0.1',
+]
 const catcouturePoints = [
   'Mock Web Store Front',
   'React, Node, Express',
